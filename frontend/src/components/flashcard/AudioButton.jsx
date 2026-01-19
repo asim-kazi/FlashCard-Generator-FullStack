@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Volume2, Loader } from 'lucide-react';
-import { generateAudio } from '../api/flashcards';
+import { generateAudio } from '../../api/flashcards';
 
 const AudioButton = ({ text }) => {
   const [loading, setLoading] = useState(false);
